@@ -39,6 +39,15 @@ grunt.initConfig({
 	}, grunt.file.readJSON( "config.json" ) )
 });
 
+grunt.registerHelper( "build-pages-preprocess", function( post, fileName, done ) {
+	post.customFields = post.customFields || [];
+	post.customFields.push({
+		key: "hide_title",
+		value: 1
+	});
+	done();
+});
+
 grunt.registerTask( "default", "lint" );
 grunt.registerTask( "build", "build-pages build-resources" );
 grunt.registerTask( "build-wordpress", "check-modules clean lint build" );
