@@ -1,6 +1,8 @@
 <script>{
 	"title": "Typography",
-	"subtitle": "Typography is important for getting your message across. We've created a library of typefaces with their proper uses to create a seamless interaction and presentation to your audience."
+	"customFields": [
+		{ "key": "subtitle", "value:": "Typography is important for getting your message across. We've created a library of typefaces with their proper uses to create a seamless interaction and presentation to your audience." }
+	]
 }</script>
 
 ## Cario

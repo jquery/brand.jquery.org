@@ -1,6 +1,8 @@
 <script>{
 	"title": "Welcome",
-	"subtitle": "We've curated guidelines for our community to use in order to create, maintain and expand the jQuery brand."
+	"customFields": [
+		{ "key": "subtitle", "value:": "We've curated guidelines for our community to use in order to create, maintain and expand the jQuery brand." }
+	]
 }</script>
 
 ## Introduction
