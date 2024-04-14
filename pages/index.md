@@ -1,7 +1,7 @@
 <script>{
 	"title": "Welcome",
 	"customFields": [
-		{ "key": "subtitle", "value:": "We've curated guidelines for our community to use in order to create, maintain and expand the jQuery brand." }
+		{ "key": "subtitle", "value": "We've curated guidelines for our community to use in order to create, maintain and expand the jQuery brand." }
 	]
 }</script>
 
